@@ -1,0 +1,233 @@
+
+/* CONFIGS BASE */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+/* CABEÇALHO */
+
+header{
+    background-color: #060606;
+    width: 100vw;
+    padding-top: 47px;
+    padding-bottom: 44px;
+}
+
+header section{
+    max-width: 1440px;  
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+header div {
+    margin-left: 60px;
+}
+
+header div h1{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #DADADA;
+    padding-right: 0px;
+    display: inline-block;
+}
+
+header div span{
+    color: #BEBEBE;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+nav{
+    padding-right: 10px;
+}
+nav ul li {
+    color: #B9B9B9;
+    display: inline-block;
+    font-size: 18px;
+    padding-right: 50px;
+    font-weight: 600;
+    list-style: none;
+}
+
+/* BANNER PRINCIPAL  */
+
+main{
+    
+    background: #060606;
+    height: 525px;
+    color: #FCFCFC;
+    padding-top: 12vh;
+}   
+
+main section{
+    max-width: 1440px;
+    margin: auto;
+}
+
+main div{
+    padding-left: 60px;
+}
+
+main h2{
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 68px;
+}
+
+main span{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    padding-right: 10px;
+}
+
+main img{
+    width: 20px;
+}
+
+.divRectangle{
+    width: 0.4px;
+    height: 2px;
+    border-radius: 5px;
+    background-color: #FCFCFC;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.divImage{
+    width: 280px;
+}
+
+/* BODY , TODAS AS SECÇÕES */
+
+
+.section{
+    height: 525px;
+}
+
+
+.sectionWhite{
+    background: #DADADA;
+}
+.sectionBlack{
+    background: #242424;
+}
+
+.sectionIn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.white{
+    color: #FCFCFC;
+}
+
+.black{
+    color: #242424;
+}
+
+.white a{
+    color: #FCFCFC;
+}
+
+.black a{
+    color: #242424; 
+}
+
+.content{
+    padding: 0px 20px 0px 60px;
+}
+
+.contentMarginRight{
+    margin-right: 273px;
+}
+
+.content img{
+    width: 60px;
+    
+}
+
+.content h2{
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.content p{
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+
+
+.arrow1{
+    width: 2px;
+    height: 2px; 
+    padding-bottom: 5px;
+    margin-left: -7px;
+    
+}
+
+.arrow2{
+    width: 5px;
+    height: 15px; 
+    margin-bottom: -1.5px; 
+    margin-left: -56px;
+}
+
+.padding-top{
+    padding-top: 49px;
+}
+
+.sectionBlue{
+    background: #0026D9;
+}
+
+.imagePadding{
+    padding-left: 130px;
+}
+
+/* RODAPÉ  */
+
+
+footer{
+    /* height: 153px; */
+    background: #090909;
+    padding-left: 60px;
+    padding-top: 80px;
+    padding-bottom: 87px;
+    
+}
+
+.footer{
+    max-width: 1440px;
+    margin: auto;
+    
+}
+
+.email{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.navegationFooter li{
+    padding-right: 32px;
+    padding-top: 32px;
+    list-style: none;
+    font-weight: 500;
+    font-size: 18px; 
+    color: #C2C2C2;
+}
